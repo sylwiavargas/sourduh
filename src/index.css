@@ -1,0 +1,39 @@
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #555;
+  --color-text-tertiary: #888;
+
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f7f7f5;
+
+  --color-border-primary: #1a1a1a;
+  --color-border-tertiary: #e0e0dc;
+
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+}
+
+html {
+  color-scheme: light;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-background-primary);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: inherit;
+}

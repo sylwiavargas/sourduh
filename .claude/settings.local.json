@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Bash(yes \"\" | npx --yes create-vite . --template react-ts 2>&1)",
+      "Bash(npm install react react-dom 2>&1)",
+      "Bash(npm install -D @types/react @types/react-dom @vitejs/plugin-react typescript vite eslint @eslint/js globals eslint-plugin-react-hooks eslint-plugin-react-refresh typescript-eslint 2>&1)",
+      "Bash(npm install -D @types/react @types/react-dom @vitejs/plugin-react typescript vite eslint@^9 @eslint/js@^9 globals eslint-plugin-react-hooks@^5 eslint-plugin-react-refresh typescript-eslint 2>&1)",
+      "Bash(npm run build 2>&1)",
+      "Bash(npm run dev 2>&1)",
+      "Bash(vercel --version 2>&1)",
+      "Bash(vercel --prod 2>&1)",
+      "Bash(vercel --prod --yes 2>&1)",
+      "Bash(gh auth status 2>&1)",
+      "Bash(git -C /Users/sylwiavargas/Documents/dev/sourduh status 2>&1)",
+      "Bash(git init /Users/sylwiavargas/Documents/dev/sourduh 2>&1)"
+    ]
+  }
+}
